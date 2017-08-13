@@ -6,30 +6,45 @@
 nav {
   float: left;
   display: block;
+  height: 40px;
+  overflow: scroll;
 }
 
 .navbar {
-  float: left;
   color: #9d9d9d;
   display: block;
   list-style: none;
   overflow: scroll;
   margin: 0px;
-  padding: 5px;
-  width: 80%;
+  padding: 10px;
+  height: 40px;
+  white-space: nowrap;
+  width: 85%;
+  border-bottom: 2px solid rgb(242, 242, 242);
 }
 
 .navbar li {
-  display: block;
-  float: left;
-  width: 80%;
-  height: 20px;
+  display: inline-block;
+  height: 40px;
   overflow: scroll;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
 }
 
 .banner {
   border-bottom: 2px solid rgb(242, 242, 242);
+  text-decoration: none;
 }
+
+.banner a {
+  text-decoration: none;
+}
+
 /*
 .banner img {
   float: left;
@@ -58,7 +73,7 @@ body {
 
 .splashImage {
   position: relative;
-  width: 100%;
+  width: 85%;
   display: block;
 }
 
