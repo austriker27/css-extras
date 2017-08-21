@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap - The Most Powerful HTML, CSS and JS library in the world</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
     <nav>
-      <ul>
-        <li class="logo"></li>
+      <ul class="topnav">
+        <li id="topLeftLogo">B</li>
         <li>Home</li>
         <li>Documentation</li>
         <li>Examples</li>
@@ -15,30 +16,34 @@
         <li>Jobs</li>
         <li>Expo</li>
         <li>Blog</li>
-        <li>v4.0</li>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <button type="button" name="download"></button>
+        <li class="floatRight">v4.0</li>
+        <img src="github.svg" alt="" class="floatRight topNavIcons">
+        <img src="twitter.svg" alt="" class="floatRight">
+        <img src="slack.svg" alt="" class="floatRight">
+        <button type="button" name="download" class="floatRight" id="downloadBtn">Download</button>
       </ul>
     </nav>
+    <div class="floatFix"></div>
 
-    <h1>Bootstrap</h1>
-    <p class="subtitle">
-      Build responsive, mobile-first projects on the web with the world's most popular front-end component library. </br>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
-    <button type="button" name="button"></button>
-    <button type="button" name="button"></button>
-    <p class="currently">Currently v4.0.0-beta</p>
+    <div class="btSplash">
+      <h1>Bootstrap</h1>
+      <p class="subtitle">
+        Build responsive, mobile-first projects on the web with the world's most popular front-end component library. </br>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+      <button type="button" name="button" class="splashBtns" id="leftSplashBtn">Get Started</button>
+      <button type="button" name="button" class="splashBtns" id="rightSplashBtn">Download</button>
+      <p class="currently" class="textMuted floatRight">Currently v4.0.0-beta</p>
+    </div>
+    <img src="bootstrap-stack.png" alt="huge stacked logo" id="stackedLogo">
 
-    <div class="columns">
-      <div class="column1">
+    <div class="columnsDiv">
+      <div class="column">
         <img src="" alt="icon for installation">
         <p class="rowTitle">Installation</p>
           <p class="description">Include Bootstrap's source Sass and JavaScript files via Bower, Composer, Meteor, or npm. Package managed installs don't include documentation, but do include our build system and readme.</p>
           <p class="code">npm install bootstrap@4.0.0-beta </br> gem install bootstrap -v 4.0.0.alpha6</br>bower install bootstrap#v4.0.0-beta</p>
           <button type="button" name="button">Read installation docs</button>
       </div>
-      <div class="column2">
+      <div class="column floatRight">
         <img src="" alt="icon for cloud download">
         <p class="rowTitle">Bootstrap CDN</p>
           <p class="description">When you only need to include Bootstrap's compiled CSS or JS, you can use the Bootstrap CDN.
@@ -57,7 +62,7 @@
           </p>
           <button type="button" name="button">Explore the docs</button>
       </div>
-      <div class="column3">
+      <div class="column floatRight">
         <img src="" alt="icon for installation">
         <p class="rowTitle">Official Themes</p>
           <p class="description">Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
