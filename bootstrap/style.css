@@ -34,18 +34,16 @@ body {
 #topLeftLogo {
   border: thin solid white;
   color: white;
-  border-radius: 5px;
-  /*padding: 2px 1px 2px 1px;*/
+  border-radius: 3px;
+  padding: 2px 1px 2px 1px;
   font-size: 1.4em;
-  /*margin: 5px;*/
+  margin: 3px 0px 3px 0px;
   margin-left: 15px;
   width: 30px;
 }
 
 nav ul {
   margin: 4px 0px 0px 4px;
-  background-color: #563d7c;
-
 }
 
 .topnav li {
@@ -53,9 +51,9 @@ nav ul {
   color: white;
   display: inline;
   float: left;
-  padding: 1% 2% 1% 2%;
+  padding: 10px 8px;
   text-align: center;
-  color: white;
+  color: #cdbfe3;
 }
 
 .topNavIcons {
@@ -117,7 +115,7 @@ nav ul {
   padding: 15px 20px 15px 20px;
   margin: 5px;
   display: inline;
-  width: 250px;
+  width: 200px;
   font-style: strong;
 }
 
@@ -140,6 +138,11 @@ nav ul {
   display: inline-block;
 }
 
+.columnsDiv .columnIcons {
+  color: #007bff;
+  padding: 5px 5px 5px 5px;
+}
+
 .columnsDiv .column {
   width: 30%;
   margin: 10px;
@@ -151,13 +154,13 @@ nav ul {
 
 .columnBtns {
   border: 1px solid blue;
-  color: blue;
+  color: #007bff;
   background-color: white;
   border-radius: 5px;
-  padding: 15px 20px 15px 20px;
+  padding: 10px 15px 10px 15px;
   margin: 5px;
   display: inline;
-  width: 150px;
+  width: 180px;
 }
 
 #bootstrapThemesColumn3 {

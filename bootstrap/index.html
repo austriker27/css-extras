@@ -38,23 +38,24 @@
     <img src="bootstrap-stack.png" alt="huge stacked logo" id="stackedLogo">
 
     <div class="columnsDiv">
-      <div class="column floatLeft">
-        <img src="" alt="icon for installation">
-        <p class="rowTitle">Installation</p>
+      <div class="column">
+        <img src="import.svg" alt="icon for installation" class="columnIcons">
+        <h3 class="rowTitle">Installation</h3>
           <p class="description">Include Bootstrap's source Sass and JavaScript files via Bower, Composer, Meteor, or npm. Package managed installs don't include documentation, but do include our build system and readme.</p>
-          <p class="code"><pre><code>npm install bootstrap@4.0.0-beta </br> gem install bootstrap -v 4.0.0.alpha6</br>bower install bootstrap#v4.0.0-beta</code></pre></p>
+          <p class="code"><pre><code>npm install bootstrap@4.0.0-beta </br>gem install bootstrap -v 4.0.0.alpha6</br>bower install bootstrap#v4.0.0-beta</code></pre></p>
           <button type="button" name="button" class="columnBtns">Read installation docs</button>
       </div>
-      <div class="column floatRight">
-        <img src="" alt="icon for cloud download">
-        <p class="rowTitle">Bootstrap CDN</p>
+      <div class="column floatLeft">
+        <img src="download.svg" alt="icon for cloud download" class="columnIcons">
+        <h3 class="rowTitle">Bootstrap CDN</h3>
           <p class="description">When you only need to include Bootstrap's compiled CSS or JS, you can use the Bootstrap CDN.
           <p class="subtitle">CSS Only</p>
-          <p class="code scrollable">
-          <pre><code>
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-          </code></pre></p>
-          <p class="subtitle">JS, Popper, and jQuery</p>
+          <span class="code scrollable">
+          <pre>
+          <code class="language-html" data-lang="html"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+          </code>
+          </pre></span>
+          <h5 class="subtitle">JS, Popper, and jQuery</h5>
           <p class="code scrollable">
             <pre><code>
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -64,8 +65,8 @@
           <button type="button" name="button" class="columnBtns">Explore the docs</button>
       </div>
       <div class="column floatRight">
-        <img src="" alt="icon for installation">
-        <p class="rowTitle">Official Themes</p>
+        <img src="lightning.svg" alt="icon for installation" class="columnIcons">
+        <h3 class="rowTitle">Official Themes</h3>
           <p class="description">Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
           <img src="bootstrap-themes.png" alt="bootstrap themes picture" id="bootstrapThemesColumn3">
           <button type="button" name="button" class="columnBtns">Browse Themes</button>
