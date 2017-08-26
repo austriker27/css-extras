@@ -1,0 +1,208 @@
+* {
+box-sizing: border-box;
+}
+
+.floatFix {
+  float: none;
+}
+
+.floatRight {
+  float: right;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+.textMuted {
+  color: gray;
+}
+
+.containerTopNav {
+  background-color: #563d7c;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  height: 50px;
+}
+
+#topLeftLogo {
+  border: thin solid white;
+  color: white;
+  border-radius: 3px;
+  padding: 2px 1px 2px 1px;
+  font-size: 1.4em;
+  margin: 3px 0px 3px 0px;
+  margin-left: 15px;
+  width: 30px;
+}
+
+nav ul {
+  margin: 4px 0px 0px 4px;
+}
+
+.topnav li {
+  list-style: none;
+  color: white;
+  display: inline;
+  float: left;
+  padding: 10px 8px;
+  text-align: center;
+  color: #cdbfe3;
+}
+
+.topNavIcons {
+  -webkit-filter: invert(1);
+  padding: 2px 2px 2px 2px;
+}
+
+#downloadBtn {
+  float: right;
+  background-color: #563d7c;
+  color: #ffe484;
+  border-radius: 5px;
+  border: thin solid yellow;
+  padding: 5px 10px 5px 10px;
+  margin: 2px 2px 2px 2px;
+  display: inline-block;
+}
+
+.topNavIcons img{
+  display: inline-block;
+
+}
+
+.btSplash {
+  margin: 8%;
+  width: 40%;
+  display: inline-block;
+  height: 440px;
+}
+
+.btSplash h1 {
+  color: #7952b3;
+  font-size: 4em;
+}
+
+.subtitle {
+  font-size: 1.3em;
+  line-height: 200%;
+}
+
+.subtitle p {
+  margin: 2% 0% 2% 0%;
+}
+
+#currently {
+  margin: 1% 1% 1% 1%;
+}
+
+#stackedLogo {
+  float: right;
+  margin: 8% 3% 5% 0%;
+  text-align: center;
+  height: 440px;
+}
+
+.splashBtns {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+  margin: 5px;
+  display: inline;
+  width: 200px;
+  font-style: strong;
+}
+
+#leftSplashBtn {
+  background-color: white;
+  color: #563d7c;
+  border-color: #563d7c;
+
+}
+
+#rightSplashBtn {
+  background-color: white;
+  color: gray;
+  border-color: gray;
+}
+
+.columnsDiv {
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+.columnsDiv .columnIcons {
+  color: #007bff;
+  padding: 5px 5px 5px 5px;
+}
+
+.columnsDiv .column {
+  width: 30%;
+  margin: 10px;
+  display: inline-block;
+  background-color: #f8f9fa;
+  padding: 20px;
+  height: 40%;
+}
+
+.columnBtns {
+  border: 1px solid blue;
+  color: #007bff;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin: 5px;
+  display: inline;
+  width: 180px;
+}
+
+#bootstrapThemesColumn3 {
+  display: inline-block;
+  width: 200px;
+}
+
+footer {
+  display: block;
+  font-size: 0.8em;
+  width: 100%;
+  margin: 0%;
+  background-color: #f8f9fa;
+  padding: 5% 5% 5% 5%;
+}
+
+.footerLinks ul {
+  width: 100%;
+  display: inline-block;
+  margin: 5%;
+}
+
+.footerLinks li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  margin: 5px;
+}
+
+.footerLinks li a {
+  float: left;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+footer p {
+  display: inline-block;
+  width: 100%;
+  margin: 0px;
+}
